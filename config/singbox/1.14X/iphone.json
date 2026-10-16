@@ -39,7 +39,6 @@
     {"tag": "手动选择", "type": "selector", "outbounds": []},
     {"tag": "香港手动", "type": "selector", "outbounds": []},
     {"tag": "日本手动", "type": "selector", "outbounds": []},
-    {"tag": "电信", "type": "selector", "outbounds": []},
     {"tag": "自动选择", "type": "urltest", "outbounds": [], "url": "https://clients1.google.com/generate_204", "interval": "30m", "tolerance": 100},
     {"tag": "延迟辅助", "type": "urltest", "outbounds": ["直连"], "url": "http://connect.rom.miui.com/generate_204", "interval": "30m"},
     {"tag": "GLOBAL", "type": "selector", "outbounds": ["默认代理", "AI", "YouTube", "Google", "Github", "TikTok", "Microsoft", "OneDrive", "Apple", "香港手动", "日本手动", "漏网之鱼", "手动选择", "自动选择", "延迟辅助", "直连"]},
